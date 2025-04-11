@@ -20,7 +20,7 @@ const seedAdmin = async () => {
         const admin = await prisma.user.create({
             data: {
                 name: "Admin",
-                email: "admin@example.com",
+                email: "vendoratifeapps@gmail.com",
                 password,
                 role: "Admin",
                 address: "Ngaglik 56172, Sleman, Yogyakarta, Indonesia",
